@@ -69,4 +69,7 @@ void print(string names[])
 		// Output the sorted names.
 		outFile << names[i] << endl;
 	}
+	
+	// Close the output file.
+	outFile.close();
 }
